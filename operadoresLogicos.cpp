@@ -2,34 +2,27 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     int a, b, x;
 
-    do
-    {
+    do {
         cout << "Digite o primeiro numero (0 ou 1): " << endl;
         cin >> a;
-        if (a == 1 || a == 0)
-        {
+        if (a == 1 || a == 0) {
             x = 1;
         }
-        else
-        {
+        else {
             x = 0;
         }
     } while (x == 0);
 
-    do
-    {
+    do {
         cout << "Digite o segundo numero (0 ou 1): " << endl;
         cin >> b;
-        if (b == 1 || b == 0)
-        {
+        if (b == 1 || b == 0) {
             x = 1;
         }
-        else
-        {
+        else {
             x = 0;
         }
     } while (x == 0);
