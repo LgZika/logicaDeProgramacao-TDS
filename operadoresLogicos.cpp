@@ -9,23 +9,23 @@ int main() {
         cout << "Digite o primeiro numero (0 ou 1): " << endl;
         cin >> a;
         if (a == 1 || a == 0) {
-            x = 1;
-        }
-        else {
             x = 0;
         }
-    } while (x == 0);
+        else {
+            x = 1;
+        }
+    } while (x == 1);
 
     do {
         cout << "Digite o segundo numero (0 ou 1): " << endl;
         cin >> b;
         if (b == 1 || b == 0) {
-            x = 1;
-        }
-        else {
             x = 0;
         }
-    } while (x == 0);
+        else {
+            x = 1;
+        }
+    } while (x == 1);
 
     cout << "\nOperador AND (&&):\n";
     cout << a << " && " << b << " = " << (a && b) << endl;
