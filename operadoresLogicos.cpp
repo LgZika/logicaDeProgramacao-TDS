@@ -2,18 +2,37 @@
 
 using namespace std;
 
-int main(){
-    int a, b;
+int main()
+{
+    int a, b, x;
 
-    do{
+    do
+    {
         cout << "Digite o primeiro numero (0 ou 1): " << endl;
         cin >> a;
-    } while (0<a<2);
-    
-    do{
+        if (a == 1 || a == 0)
+        {
+            x = 1;
+        }
+        else
+        {
+            x = 0;
+        }
+    } while (x == 0);
+
+    do
+    {
         cout << "Digite o segundo numero (0 ou 1): " << endl;
         cin >> b;
-    } while ((b =! 0) || (b =! 1));
+        if (b == 1 || b == 0)
+        {
+            x = 1;
+        }
+        else
+        {
+            x = 0;
+        }
+    } while (x == 0);
 
     cout << "\nOperador AND (&&):\n";
     cout << a << " && " << b << " = " << (a && b) << endl;
