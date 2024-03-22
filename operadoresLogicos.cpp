@@ -36,6 +36,6 @@ int main() {
     cout << "\nOperador NOT (!):\n";
     cout << "! " << a << " = " << (!a) << endl;
     cout << "! " << b << " = " << (!b) << endl;
-    // teste
+    
     return false;
 }
