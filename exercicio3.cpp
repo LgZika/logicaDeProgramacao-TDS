@@ -1,7 +1,7 @@
 /*
 Exercício 2:
-Crie um programa que pede ao usuário dois números e
-depois imprime a soma desses números.
+Crie um programa que pede ao usuário um número
+e imprima o dobro desse número no terminal
 
 */
 
@@ -10,13 +10,11 @@ depois imprime a soma desses números.
 using namespace std;
 
 int main() {
-    int x, y;
+    float x;
 
-    cout << "Entre com o primeiro numero: ";
+    cout << "Entre com um numero: ";
     cin >> x;
-    cout << "Entre com o segundo numero: ";
-    cin >> y;
-    cout << "A soma dos numeros inseridos eh: " << (x + y) << endl;
+    cout << "O dobro do numero inserido eh: " << (2*x) << endl;
 
     return false;
 }
